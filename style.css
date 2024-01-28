@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4px 12px;
+  padding: 4px 3rem;
   background-color: rgb(208, 133, 27);
 }
 
@@ -42,4 +42,31 @@
 
 .navbar nav {
   margin-right: 40px;
+}
+
+body {
+  background-color: #edf2f7;
+}
+
+.main {
+  display: flex;
+  margin: 3rem;
+}
+
+aside {
+  width: 25%;
+  margin-right: 25px;
+}
+
+main {
+  width: 75%;
+}
+
+aside,
+main {
+  background: #fff;
+  height: 600px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 1rem;
 }
