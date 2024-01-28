@@ -88,6 +88,7 @@ main {
 .main-li a {
   text-decoration: none;
   font-size: 1.2rem;
+  color: rgb(94, 5, 189);
   white-space: nowrap;
 }
 
@@ -98,4 +99,35 @@ main {
 .main-logo {
   width: 100%;
   height: 100%;
+}
+
+.aside-navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-logo {
+  margin-bottom: 2rem;
+}
+
+.aside-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+.aside-ul li {
+  margin: 0.4rem 0;
+}
+
+.aside-ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(94, 5, 189);
 }
